@@ -1,0 +1,23 @@
+{
+  "name": "my-awesome-stack-back",
+  "version": "1.0.0",
+  "description": "Backend example",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "git clone https://github.com/Orbmancer/my-awesome-stack-shared.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Orbmancer/my-awesome-stack-back.git"
+  },
+  "keywords": [
+    "back",
+    "stack"
+  ],
+  "author": "Orbmancer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Orbmancer/my-awesome-stack-back/issues"
+  },
+  "homepage": "https://github.com/Orbmancer/my-awesome-stack-back"
+}
