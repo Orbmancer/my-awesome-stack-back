@@ -1,5 +1,9 @@
 # MODIFIY THIS
 my-awesome-stack-shared
 
-##IDEA
+# Common
+node_modules
+bower_components
+
+##IDE
 .idea

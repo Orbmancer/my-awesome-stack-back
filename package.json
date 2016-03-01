@@ -2,7 +2,7 @@
   "name": "my-awesome-stack-back",
   "version": "1.0.0",
   "description": "Backend example",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "preinstall": "git clone https://github.com/Orbmancer/my-awesome-stack-shared.git"
   },
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/Orbmancer/my-awesome-stack-back/issues"
   },
-  "homepage": "https://github.com/Orbmancer/my-awesome-stack-back"
+  "homepage": "https://github.com/Orbmancer/my-awesome-stack-back",
+  "dependencies": {
+    "app-module-path": "^1.0.5",
+    "hapi": "^13.0.0"
+  }
 }
