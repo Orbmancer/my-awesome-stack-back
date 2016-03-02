@@ -7,17 +7,17 @@ require('app-module-path').addPath('./my-awesome-stack-shared/src');
 const Hapi = require('hapi');
 
 const server = new Hapi.Server();
-server.connection({ port: 4242 });
+server.connection({ port: 4242, routes : { cors: true } });
 
 // ROUTE
 server.route({
     method: 'GET',
-    path: '/gif/random',
+    path: '/gifs/random',
     handler: function (request, reply) {
 
         var gif = require('shared/gif');
 
-        gif.getRandomGIF()
+        gif.getRandomGIF('kitten')
             .then(function(data) {
                 reply(data).code(200);
             })
